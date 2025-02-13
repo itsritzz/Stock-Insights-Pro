@@ -5,7 +5,6 @@ import streamlit as st # Imports Streamlit
 from agno.agent import Agent  # Represents a framework-specific agent.
 from agno.models.groq import Groq  # Groq model module, for leveraging specific machine learning models or tools in Phi.
 from agno.tools.yfinance import YFinanceTools  # Provides tools to access and manipulate financial data from Yahoo Finance.
-from agno.tools.googlesearch import GoogleSearch  # Enables interaction with Google Search for querying and retrieving search results programmatically.
 from agno.tools.duckduckgo import DuckDuckGoTools  # Enables querying DuckDuckGo search engine for retrieving search results programmatically.
 
 load_dotenv()

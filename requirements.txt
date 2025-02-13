@@ -5,3 +5,4 @@ yfinance==0.2.51
 googlesearch-python==1.2.5
 duckduckgo-search==7.1.1
 groq==0.13.1
+pycountry==24.6.1
