@@ -79,3 +79,35 @@ if st.button("Get Insights"):
                 st.error("❌ No data received. Please try again.")
         except Exception as e:
             st.error(f"⚠️ Error: {e}")
+# Footer
+st.markdown(
+    """
+    <style>
+        .footer {
+            position: fixed;
+            bottom: 10px;
+            width: 50%;
+            text-align: center;
+            font-size: 12px;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        .footer a {
+            color: blue;
+            text-decoration: none;
+            margin: 0 8px;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <div class="footer">
+        2025 © Developed with ❤️ by Ritesh Kumar Singh. All rights reserved.
+        <br>
+        <a href="https://itsritz.my.canva.site" target="_blank">Portfolio</a> |
+        <a href="https://www.linkedin.com/in/ritesh001/" target="_blank">LinkedIn</a> | 
+        <a href="https://github.com/itsritzz" target="_blank">GitHub</a> 
+    </div>
+    """,
+    unsafe_allow_html=True
+)
